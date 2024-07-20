@@ -1,5 +1,6 @@
 import action.Library;
 import domain.Book;
+import domain.Member;
 
 import java.util.Scanner;
 
@@ -38,9 +39,24 @@ public class Main {
                     break;
                 case 2 :
                     System.out.println("Adding a member ");
+                    System.out.println("Enter name");
+                    String name = scanner.next();
+                    System.out.println("Enter member Id : ");
+                    int memberId = scanner.nextInt();
+                    library.addMember( new Member(name,memberId));
+                    break;
                 case 5:
                     library.listAllBooks();
                     break;
+                case 6:
+                    library.listAllMembers();
+                    break;
+                case 8:
+                    library.sorBooks();
+                    break;
+                case 9:
+                    library.sortMember();
+
             }
 
         }while (choice != 10);
