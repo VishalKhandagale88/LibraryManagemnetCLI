@@ -35,7 +35,7 @@ public class Book extends AbstractEntity implements Comparable<Book> {
     }
     @Override
     public void display(){
-        System.out.println("Book[ title =" +title + "author ="+author+", genre ="+genre+" , issued="+issued);
+        System.out.println("Book[ title =" +title + " author ="+author+", genre = "+genre+" , issued= "+issued+"]");
     }
     @Override
     public int compareTo(Book other){
