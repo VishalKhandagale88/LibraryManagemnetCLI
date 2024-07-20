@@ -45,8 +45,14 @@ public class Library implements LibraryActions{
     }
 
     @Override
-    public void returnBook() {
-
+    public void returnBook(String title) {
+        Book removeBook = issuedBook.remove(title);
+        if(removeBook != null){
+            removeBook.setIssued(false);
+            System.out.println("Book returned");
+        }else {
+            System.out.println("Book not found");
+        }
     }
 
     @Override

@@ -8,7 +8,7 @@ public interface LibraryActions {
     void addMember(Member member);
 //    void addEmployee();
     void issueBook(int memberId,String title);
-    void returnBook();
+    void returnBook(String title);
     void listAllBooks();
     void listAllMembers();
 //    void listAllEmployee();
