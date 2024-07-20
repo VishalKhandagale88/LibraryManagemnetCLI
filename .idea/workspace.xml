@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19b5ec29-94d9-4662-afdd-28b2f376a29e" name="Changes" comment="Added Employee&#10; class child to Parent">
-      <change afterPath="$PROJECT_DIR$/src/action/Library.java" afterDir="false" />
+    <list default="true" id="19b5ec29-94d9-4662-afdd-28b2f376a29e" name="Changes" comment="Added functionality to add a book and view all the books">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/action/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/action/LibraryActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/LibraryActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Book.java" afterDir="false" />
     </list>
@@ -111,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721455514718</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added functionality to add a book and view all the books">
+      <option name="closed" value="true" />
+      <created>1721458123436</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721458123436</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -121,6 +129,7 @@
     <MESSAGE value="Added Person class as parent and child to AbstractEntity" />
     <MESSAGE value="Added Member class child to Parent" />
     <MESSAGE value="Added Employee&#10; class child to Parent" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Employee&#10; class child to Parent" />
+    <MESSAGE value="Added functionality to add a book and view all the books" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added functionality to add a book and view all the books" />
   </component>
 </project>
