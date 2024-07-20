@@ -73,7 +73,7 @@ public class Library implements LibraryActions{
 
     @Override
     public void sortMember() {
-        List<Member> memberList = new ArrayList<>();
+        List<Member> memberList = new ArrayList<>(member.values());
         memberList.sort(new Comparator<Member>() {
             @Override
             public int compare(Member o1, Member o2) {
