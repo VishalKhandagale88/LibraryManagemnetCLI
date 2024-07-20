@@ -12,7 +12,7 @@ public interface LibraryActions {
     void listAllBooks();
     void listAllMembers();
 //    void listAllEmployee();
-    void searchBookByTitle();
+    void searchBookByTitle(String title);
     void sorBooks();
     void sortMember();
 }
