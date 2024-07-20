@@ -51,12 +51,16 @@ public class Main {
                 case 6:
                     library.listAllMembers();
                     break;
+                case 7:
+                    System.out.println("Enter book title");
+                    String bookTitle = scanner.next();
+                    library.searchBookByTitle(bookTitle);
                 case 8:
                     library.sorBooks();
                     break;
                 case 9:
                     library.sortMember();
-
+                    break;
             }
 
         }while (choice != 10);
