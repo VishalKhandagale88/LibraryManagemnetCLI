@@ -29,8 +29,19 @@ public class Library implements LibraryActions{
     }
 
     @Override
-    public void issueBook() {
-
+    public void issueBook(int memberId, String title) {
+        for(Book book : books){
+            if(book.getTitle().equalsIgnoreCase(title) && !book.isIssued()){
+               Member member1 = member.get(memberId);
+               if(member1 != null){
+                   book.setIssued(true);
+                   issuedBook.put(title,book);
+               }
+                System.out.println("Member does not exists");
+               return;
+            }
+        }
+        System.out.println("Book not found or already issued");
     }
 
     @Override

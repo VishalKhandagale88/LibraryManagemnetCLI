@@ -45,6 +45,13 @@ public class Main {
                     int memberId = scanner.nextInt();
                     library.addMember( new Member(name,memberId));
                     break;
+                case 3:
+                    System.out.println("Enter member id");
+                    int memId = scanner.nextInt();
+                    System.out.println("member name");
+                    String memName = scanner.next();
+                    library.issueBook(memId,memName);
+                    break;
                 case 5:
                     library.listAllBooks();
                     break;
