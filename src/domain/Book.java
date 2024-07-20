@@ -1,6 +1,6 @@
 package domain;
 
-public class Book extends AbstractEntity {
+public class Book extends AbstractEntity implements Comparable<Book> {
     private final String title;
     private final String author;
     private final String genre;
@@ -36,6 +36,14 @@ public class Book extends AbstractEntity {
     @Override
     public void display(){
         System.out.println("Book[ title =" +title + "author ="+author+", genre ="+genre+" , issued="+issued);
+    }
+    @Override
+    public int compareTo(Book other){
+        // for number comparision
+//        return Integer.compare(this.title,other.title);
+
+        // for string
+        return this.title.compareTo(other.title);
     }
 }
 
