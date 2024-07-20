@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19b5ec29-94d9-4662-afdd-28b2f376a29e" name="Changes" comment="added Books class">
-      <change afterPath="$PROJECT_DIR$/src/domain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Person.java" afterDir="false" />
+    <list default="true" id="19b5ec29-94d9-4662-afdd-28b2f376a29e" name="Changes" comment="Added Employee&#10; class child to Parent">
+      <change afterPath="$PROJECT_DIR$/src/action/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/action/LibraryActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/LibraryActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Book.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +38,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="LibraryManagemnetCLI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,13 +87,40 @@
       <option name="project" value="LOCAL" />
       <updated>1721454668146</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Person class as parent and child to AbstractEntity">
+      <option name="closed" value="true" />
+      <created>1721455476997</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721455476997</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Member class child to Parent">
+      <option name="closed" value="true" />
+      <created>1721455505777</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721455505777</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added Employee&#10; class child to Parent">
+      <option name="closed" value="true" />
+      <created>1721455514718</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721455514718</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="created AbstractEntity" />
     <MESSAGE value="added Books class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Books class" />
+    <MESSAGE value="Added Person class as parent and child to AbstractEntity" />
+    <MESSAGE value="Added Member class child to Parent" />
+    <MESSAGE value="Added Employee&#10; class child to Parent" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Employee&#10; class child to Parent" />
   </component>
 </project>

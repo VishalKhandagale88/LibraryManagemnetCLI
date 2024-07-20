@@ -6,12 +6,12 @@ public class Book extends AbstractEntity {
     private final String genre;
     private boolean issued;
 
-    public Book(String title, String author, String genre, boolean issued) {
+    public Book(String title, String author, String genre) {
         super();
         this.title = title;
         this.author = author;
         this.genre = genre;
-        this.issued = issued;
+        this.issued = false;
     }
 
     public String getTitle() {
