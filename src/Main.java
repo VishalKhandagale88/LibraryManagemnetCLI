@@ -48,9 +48,14 @@ public class Main {
                 case 3:
                     System.out.println("Enter member id");
                     int memId = scanner.nextInt();
-                    System.out.println("member name");
+                    System.out.println("Book title to be issued");
                     String memName = scanner.next();
                     library.issueBook(memId,memName);
+                    break;
+                case 4:
+                    System.out.println("Enter book title to return");
+                    String returnBookTitle = scanner.next();
+                    library.returnBook(returnBookTitle);
                     break;
                 case 5:
                     library.listAllBooks();

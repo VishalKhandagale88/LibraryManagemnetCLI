@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19b5ec29-94d9-4662-afdd-28b2f376a29e" name="Changes" comment="fixed sortMember method which take members in array list">
+    <list default="true" id="19b5ec29-94d9-4662-afdd-28b2f376a29e" name="Changes" comment="added method fot book not found">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/action/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/action/LibraryActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/LibraryActions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +197,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721463857809</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added logic to issue a book">
+      <option name="closed" value="true" />
+      <created>1721464474778</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1721464474778</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added method fot book not found">
+      <option name="closed" value="true" />
+      <created>1721464656928</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1721464656928</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -216,6 +233,8 @@
     <MESSAGE value="added required params" />
     <MESSAGE value="added case 7" />
     <MESSAGE value="fixed sortMember method which take members in array list" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed sortMember method which take members in array list" />
+    <MESSAGE value="added logic to issue a book" />
+    <MESSAGE value="added method fot book not found" />
+    <option name="LAST_COMMIT_MESSAGE" value="added method fot book not found" />
   </component>
 </project>
