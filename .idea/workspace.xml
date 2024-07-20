@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19b5ec29-94d9-4662-afdd-28b2f376a29e" name="Changes" comment="Added functionality to add a book and view all the books">
+    <list default="true" id="19b5ec29-94d9-4662-afdd-28b2f376a29e" name="Changes" comment="added 6,7 and 9 cases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/action/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/action/LibraryActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/LibraryActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Book.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
@@ -119,7 +118,47 @@
       <option name="project" value="LOCAL" />
       <updated>1721458123436</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="implemented comparable">
+      <option name="closed" value="true" />
+      <created>1721460087274</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721460087274</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added logic to add member">
+      <option name="closed" value="true" />
+      <created>1721460114058</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721460114058</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added params in addMember method">
+      <option name="closed" value="true" />
+      <created>1721460135094</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721460135094</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added 6,7 and 9 cases">
+      <option name="closed" value="true" />
+      <created>1721460156524</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721460156524</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added 6,7 and 9 cases">
+      <option name="closed" value="true" />
+      <created>1721460163447</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721460163447</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -130,6 +169,10 @@
     <MESSAGE value="Added Member class child to Parent" />
     <MESSAGE value="Added Employee&#10; class child to Parent" />
     <MESSAGE value="Added functionality to add a book and view all the books" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added functionality to add a book and view all the books" />
+    <MESSAGE value="implemented comparable" />
+    <MESSAGE value="added logic to add member" />
+    <MESSAGE value="added params in addMember method" />
+    <MESSAGE value="added 6,7 and 9 cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 6,7 and 9 cases" />
   </component>
 </project>

@@ -55,8 +55,15 @@ public class Library implements LibraryActions{
     }
 
     @Override
-    public void searchBookByTitle() {
-
+    public void searchBookByTitle(String title) {
+        for(Book book : books){
+            // hr -- hR
+            if(book.getTitle().equalsIgnoreCase(title)){
+                book.display();
+                return;
+            }
+        }
+        System.out.println("Book not found");
     }
 
     @Override
@@ -66,6 +73,16 @@ public class Library implements LibraryActions{
 
     @Override
     public void sortMember() {
-
+        List<Member> memberList = new ArrayList<>();
+        memberList.sort(new Comparator<Member>() {
+            @Override
+            public int compare(Member o1, Member o2) {
+                return o1.getName().compareTo(o2.getName());
+            }
+        });
+        System.out.println("Member sorted");
+        for(Member member1 : memberList){
+            member1.display();
+        }
     }
 }
