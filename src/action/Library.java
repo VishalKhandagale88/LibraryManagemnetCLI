@@ -3,10 +3,7 @@ package action;
 import domain.Book;
 import domain.Member;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Library implements LibraryActions{
     private List<Book> books;
@@ -27,8 +24,8 @@ public class Library implements LibraryActions{
     }
 
     @Override
-    public void addMember() {
-
+    public void addMember(Member libMember) {
+        member.put(libMember.getMemberId(),libMember);
     }
 
     @Override
@@ -51,7 +48,10 @@ public class Library implements LibraryActions{
 
     @Override
     public void listAllMembers() {
-
+        System.out.println("All members -");
+        for (Member member1 : member.values()){
+            System.out.println("Name -- "+member1.getName());
+        }
     }
 
     @Override
@@ -61,7 +61,7 @@ public class Library implements LibraryActions{
 
     @Override
     public void sorBooks() {
-
+      Collections.sort(books);
     }
 
     @Override
