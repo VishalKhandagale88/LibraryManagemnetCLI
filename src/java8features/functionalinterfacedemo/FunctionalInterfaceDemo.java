@@ -6,4 +6,7 @@ public interface FunctionalInterfaceDemo {
     default void hello(int a, int b){
         System.out.println(a*b);
     }
+    static void printMethod(String str){
+        System.out.println("------------"+str+"------------");
+    }
 }

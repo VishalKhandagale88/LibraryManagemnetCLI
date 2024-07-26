@@ -26,15 +26,15 @@ public class Main {
         // method in functional interface is taking any parameters in side and returning some type
        //    FunctionalInterfaceDemo instanceOfInterface = (a,b) -> a-b;
 
-       FunctionalInterfaceDemo instanceOfInterface = (a,b) -> {
-           a=a*b;
-           b = b*10;
-           return a - b;
-       };
+       FunctionalInterfaceDemo instanceOfInterface = (a,b) -> a - b;
+       ;
        int i = instanceOfInterface.greet(2,5);
         System.out.println(i);
+
         instanceOfInterface.hello(10,10);
+        FunctionalInterfaceDemo.printMethod("Ahmned");
     }
+
     // before and after
     // before java 8
       // only abstract methods
@@ -45,6 +45,9 @@ public class Main {
     // interface instantiation is allowed
     // new concept -> functional interface
     // with annotation
+
+
+    // twist is : if we are returning something then {} braces are required
 
 
 }
