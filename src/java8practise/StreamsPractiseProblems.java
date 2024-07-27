@@ -2,6 +2,8 @@ package java8practise;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class StreamsPractiseProblems {
@@ -13,6 +15,8 @@ public class StreamsPractiseProblems {
         streamsPractiseProblems.findMax();
         streamsPractiseProblems.countEmptyStrings();
         streamsPractiseProblems.sortAndCollect();
+        streamsPractiseProblems.groupByLength();
+        streamsPractiseProblems.sumOfSquares();
     }
     public static void sumOfEvenNumbers(){
         List<Integer> numbers = Arrays.asList(1, 2, 11, 3, 4, 5, 6, 7, 8, 9, 10,12);
@@ -59,10 +63,17 @@ public class StreamsPractiseProblems {
         System.out.println(list);
     }
     public void groupByLength(){
-
+        List<String> fruits = Arrays.asList("apple","","","orange","banana","mango","apple","mango","berry","avocado","");
+        Map<Integer, List<String>> collect = fruits.stream().collect(Collectors.groupingBy(String::length));
+        for (List<String> col : collect.values()){
+            System.out.println(col);
+        }
     }
-    public static void collectorExamples(){
-
-    }
+   public void sumOfSquares(){
+        // 1+4+9+16+25  = ?
+       List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
+       int sum = list.stream().map(num -> num * num).mapToInt(Integer::intValue).sum();
+       System.out.println(sum);
+   }
 
 }
