@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19b5ec29-94d9-4662-afdd-28b2f376a29e" name="Changes" comment="added functional reference">
-      <change afterPath="$PROJECT_DIR$/src/java8features/functionalinterfaces/PredicateDemo.java" afterDir="false" />
+    <list default="true" id="19b5ec29-94d9-4662-afdd-28b2f376a29e" name="Changes" comment="Added method examples with filter and streams">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8practise/functionalInterfacesPractiseProblems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java8features/functionalinterfacedemo/FunctionalInterfaceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8features/functionalinterfacedemo/FunctionalInterfaceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java8features/functionalinterfacedemo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8features/functionalinterfacedemo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8practise/StreamsPractiseProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8practise/StreamsPractiseProblems.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +43,13 @@
     "Application.LambdaExpressionDemo.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.PredicateDemo.executor": "Run",
+    "Application.StreamDemo.executor": "Run",
+    "Application.StreamsPractiseProblems.executor": "Run",
+    "Application.functionalInterfacesPractiseProblems.executor": "Run",
     "Application.java8features.functionalinterfacedemo.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/random/LibraryManagemnetCLI/src"
@@ -56,9 +60,22 @@
       <recent name="D:\random\LibraryManagemnetCLI\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PredicateDemo">
-    <configuration name="LambdaExpressionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8features.LambdaExpressionDemo" />
+  <component name="RunManager" selected="Application.functionalInterfacesPractiseProblems">
+    <configuration name="PredicateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8features.functionalinterfaces.PredicateDemo" />
+      <module name="LibraryManagemnetCLI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8features.functionalinterfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8features.StreamDemo" />
       <module name="LibraryManagemnetCLI" />
       <extension name="coverage">
         <pattern>
@@ -70,19 +87,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="StreamsPractiseProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8practise.StreamsPractiseProblems" />
       <module name="LibraryManagemnetCLI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8practise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8features.functionalinterfaces.PredicateDemo" />
+    <configuration name="functionalInterfacesPractiseProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8practise.functionalInterfacesPractiseProblems" />
       <module name="LibraryManagemnetCLI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8features.functionalinterfaces.*" />
+          <option name="PATTERN" value="java8practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,10 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.functionalInterfacesPractiseProblems" />
+        <item itemvalue="Application.StreamsPractiseProblems" />
+        <item itemvalue="Application.StreamDemo" />
         <item itemvalue="Application.PredicateDemo" />
         <item itemvalue="Application.java8features.functionalinterfacedemo.Main" />
-        <item itemvalue="Application.LambdaExpressionDemo" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +313,31 @@
       <option name="project" value="LOCAL" />
       <updated>1721924356740</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added predicate, consumer, function and supplier">
+      <option name="closed" value="true" />
+      <created>1722010022062</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1722010022062</updated>
+    </task>
+    <task id="LOCAL-00023" summary="added streams demo with filter and map method">
+      <option name="closed" value="true" />
+      <created>1722060464698</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1722060464698</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added method examples with filter and streams">
+      <option name="closed" value="true" />
+      <created>1722060487163</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1722060487163</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -314,6 +362,9 @@
     <MESSAGE value="fixed issue book when issued by some one" />
     <MESSAGE value="added java 8 features" />
     <MESSAGE value="added functional reference" />
-    <option name="LAST_COMMIT_MESSAGE" value="added functional reference" />
+    <MESSAGE value="added predicate, consumer, function and supplier" />
+    <MESSAGE value="added streams demo with filter and map method" />
+    <MESSAGE value="Added method examples with filter and streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added method examples with filter and streams" />
   </component>
 </project>
